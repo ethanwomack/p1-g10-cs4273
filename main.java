@@ -5,8 +5,8 @@ public class main {
 
 	static char[] spanish;
 	static char[] english;
-	final static String englishFileName = "temp";
-	final static String spanishFileName = "temp";
+	final static String englishFileName = "english.csv";
+	final static String spanishFileName = "spanish.csv";
 	static Scanner englishScnr;
 	static Scanner spanishScnr;
 	
