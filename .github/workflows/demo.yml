@@ -19,5 +19,8 @@ jobs:
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
       
+        - name: Enable JUnit Previews
+          run: java --enable-preview MainTest
+      
       - name: Run tests with Maven
         run: mvn -B test --file pom.xml
