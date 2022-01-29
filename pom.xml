@@ -88,11 +88,6 @@
                         <version>1.1.0</version>
                     </dependency>
                 <dependency>
-                <configuration>
-                    <argLine>
-                        --illegal-access=permit
-                    </argLine>
-                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
